@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
+.svg-parent {
+  background-color: rgb(10, 135, 22);
+  border-radius: 209px;
+  height: 230px;
+  width: 230px;
+  padding: 10px;
+  position: fixed;
+  left: 40%;
+  top: 23.5vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+svg {
+  position: absolute;
+  /* left: 42%;
+  top: 24vh; */
+  top: 2px;
+  left: 18px;
+  overflow: visible;
+  padding: 10px;
+  fill: rgb(10, 135, 22);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ball {
+  fill: rgb(210, 210, 210);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ballm {
+  fill: rgb(0, 4, 97);
+}
+
+
+.long-div {
+  background-color: rgb(123, 123, 123);
+}
+
+.main-left-right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.left-side-div {
+  width: 50%;
+  background-color: rgb(10, 135, 22);
+}
+
+.right-side-div {
+  height: 950vh;
+  width: 50%;
+  background-color: rgb(60, 165, 71);
+}
+
+.leftsideimg {
+  position: fixed;
+  bottom: 160px;
+  left: 40px;
+}
+
+.leftsiderinfo {
+  position: fixed;
+  color: white;
+  bottom: 56px;
+  left: 40px;
+}
+
+.left-title {
+  margin: auto;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.left-info {
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.middel-text {
+  position: fixed;
+  margin: 0%;
+  top: 40vh;
+  left: 40%;
+}
+
+.middel-c {
+  text-align: end;
+  margin: 0%;
+  color: white;
+}
+
+.middel-b {
+  color: white;
+  margin: 0%;
+}
+
+.middel-a {
+  color: white;
+  margin: 0%;
+}
+
+
+
+
+
+.phone1 {
+  height: 400px;
+  position: relative;
+  top: 46vh;
+  left: 23%;
+}
+
+.phone2 {
+  height: 400px;
+  position: relative;
+  top: 38vh;
+  left: 23%;
+}
+
+.s2phone1 {
+  height: 350px;
+  position: relative;
+  top: 58vh;
+  left: 19%;
+}
+
+.s2phone2 {
+  height: 350px;
+  position: relative;
+  top: 75vh;
+  left: 16%;
+}
+
+.s2phone3 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 100vh;
+  left: 13%;
+}
+
+.s2phone4 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 75vh;
+  left: 19%;
+}
+
+.s2phone5 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 95vh;
+  left: 16%;
+}
+
+.s3phone1 {
+  height: 360px;
+  position: relative;
+  margin: 0%;
+  top: 205vh;
+  left: -43%;
+}
+
+.s3phone2 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 115vh;
+  left: 56%;
+}
+
+.s4phone1 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 265vh;
+  left: 36%;
+}
+
+.s4phone2 {
+  height: 350px;
+  position: relative;
+  margin: 0%;
+  top: 215vh;
+  left: -35%;
+}
+
+.s5phonediv {
+  width: 100%;
+  position: static;
+
+  margin-top: 1600px;
+  top: 1600px;
+}
+
+.s5phone1 {
+  width: 100%;
+  position: static;
+  margin: 0%;
+  /* top: 1600px;  */
 }
